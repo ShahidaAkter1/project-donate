@@ -1,0 +1,363 @@
+*{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+/* header section */
+.header{
+   background:antiquewhite; 
+    background-image: url('../images/donation9.jpg'); 
+   background-repeat: no-repeat;
+   text-align: center;
+   height: 90vh;
+   
+     background-size: cover;
+     background-position: center;
+}
+
+.header-title{
+margin-top: px;
+font-size: 15px;
+font-weight: 400;
+padding-top: 150px;
+margin-bottom: 20px;
+color:white;
+}
+.header-description{
+font-size: 14px;
+font-weight: 400;
+color: white;
+margin-bottom: 30px;
+text-align:center;
+
+}
+.btn-primary{
+    color: rgb(0, 255, 0);
+    font-size: 20PX;
+    font-weight: 30PX;
+    justify-content: center;
+    background: #FD6E0A;
+
+}
+
+/* Donate Today */
+.donate-today-title{
+    text-align: center;
+    font-size:30px ;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.donate-description{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 30px;
+}
+/* nav ul{
+    display: flex;
+    align-items: center;
+ }
+ nav li{
+     list-style: none;
+     margin-left: 50px;
+ } */
+ .taka{
+ display: flex;
+ list-style: none;
+ gap: 15px;
+ align-items: center;
+ margin-left: 150px;
+ margin-right: 150px;
+ 
+ }
+.akso-tk{
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 50px;
+    background-color:azure;
+    padding: 60px;
+} 
+.akso-tk:hover{
+    border: 1px solid orangered;
+}
+.duiso-tk{
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 50px;
+    background-color: bisque;
+    padding: 60px;
+    border: 1px solid red;
+}
+.dui-tk:hover{
+    border: 1px solid orangered;
+}
+.passo-tk{
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 50px;
+    background-color: azure;
+    padding: 60px;
+}
+.passo-tk:hover{
+    border: 1px solid orangered;
+}
+.akhajar-tk{
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 50px;
+    background-color: azure;
+    padding: 60px;
+}
+.akhajar-tk:hover{
+    border: 1px solid orangered;
+}
+.pashajar-tk{
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 50px;
+    background-color: azure;
+    padding: 60px;
+}
+.pashajar-tk:hover{
+    border: 1px solid orangered;
+}
+/* other-amount" */
+
+.other-amount{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.hr{
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 20px;
+}
+.button-primary{
+    align-items: center;
+    color: black;
+    margin-left: 850px;
+    margin-right: 700px;
+    border: 5px solid orangered;
+    background-color: #FD6E0A;
+}
+
+/* our donate plan */
+section{
+    margin-top: 130px;
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.section-description{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.donate-plan{
+    display: flex;
+    gap: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
+.donate:hover{
+    /* background-color: #FD6E0A; */
+   border:5px solid orangered
+}
+.donate{
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    /* border-radius: 20px; */
+    background-color:cadetblue;
+    padding: 10px;
+   
+}
+
+.plan{
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06); padding: 10px;
+    background-color: bisque;
+}
+.plan:hover{
+    /* background-color: #FD6E0A; */
+    border: 5px solid orangered;
+}
+.education{
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06); padding: 10px;
+    background-color: bisque;
+}
+/* lives donation */
+
+
+.lives{
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    margin: 200px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.lives-depend{
+    text-align: left;
+    max-width: 40%;
+}
+.lives-depend:hover{
+    border:5px solid orangered
+}
+.lives-depend .btn{
+    outline: none;
+    border: none;
+    padding: 15px 15px;
+}
+.lives-title{
+   font-size: 700;
+   font-weight: 35px;
+   margin-bottom: 10px; 
+
+}
+.lives-description{
+    font-size: 700;
+    font-weight: 35px; 
+    margin-bottom: 20px;
+   
+ }
+ .lives-img img{
+
+   height: 400px;
+    width:100%;
+ }
+
+ .lives-img img:hover{
+    border: 3px solid orangered;
+ }
+
+
+
+
+ /* need survive */
+ .survive{
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    margin: 200px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.survive-depend{
+    text-align: left;
+    max-width: 40%;
+}
+.survive-depend:hover{
+    border:5px solid orangered
+}
+.survive-depend .btn{
+    outline: none;
+    border: none;
+    padding: 15px 15px;
+}
+.survive-title{
+   font-size: 700;
+   font-weight: 35px;
+   margin-bottom: 10px; 
+
+}
+.survive-description{
+    font-size: 700;
+    font-weight: 35px; 
+    margin-bottom: 20px;
+   
+ }
+ .survive-img img{
+    height: 400px;
+    width:100%;
+ }
+
+ .survive-img img:hover{
+    border: 3px solid orangered;
+ }
+
+
+/* update */
+ .update-email{
+    text-align: center;
+ }
+ 
+ .updates{
+    text-align: center;
+    margin-left: 400px;
+    padding: 50px;
+    margin-right: 400px;
+    margin-bottom: 30px;
+ }
+ .updates:hover{
+    border: 5px solid blue;
+ }
+ .updates-title{
+    margin-bottom: 20px;
+ }
+ .updates-describe{
+    margin-bottom: 20px;
+ }
+
+ .email-subscribe{
+    height: 100px;
+    background-color: bisque;
+    margin-left: 300px;
+    margin-right: 300px;
+   }
+   .email-subscribe .input{
+    padding: 9px;
+    border: none;
+    outline: none;
+    padding-bottom: 7px;
+    border-radius: 3px;
+    
+   }
+
+   .email-subscribe  .input-btn{
+    padding: 7.2px 10px;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    border: none;
+     margin-left: -5px;
+     border-radius: 0px 3px 3px 0px;
+   }
+
+ .email-subscribe:hover{
+    border: 2px solid blue;
+ }
+ .email{
+    text-align: center;
+border-radius: 5px 0px 0px 5px;
+ }
+ .subscribe{
+    text-align: center;
+ }
+
+ /* footer section */
+ .footer{
+    height: 40px;
+    padding: 80px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: antiquewhite;
+ }
+ .footer:hover{
+    border: 2px solid orangered;
+ }
+ 
