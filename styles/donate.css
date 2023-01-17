@@ -142,8 +142,8 @@ text-align:center;
 .button-primary{
     align-items: center;
     color: black;
-    margin-left: 850px;
-    margin-right: 700px;
+    margin-left: 700px;
+    margin-right: 800px;
     border: 5px solid orangered;
     background-color: #FD6E0A;
 }
@@ -170,6 +170,10 @@ section{
     margin-left: 100px;
     margin-right: 100px;
     padding: 10px;
+}
+.donate-plan h1 i {
+    font-size: 50px;
+  
 }
 .donate:hover{
     /* background-color: #FD6E0A; */
